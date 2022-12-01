@@ -11,7 +11,20 @@
 html {
   scroll-behavior: smooth;
 }
+/* NavBar Elements */
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.NavBarLink {
+  size: 30px;
+  color: magenta;
+  text-decoration: none;
+}
+/* About Me Elements */
 ::-webkit-scrollbar {
   display: none;
 }
