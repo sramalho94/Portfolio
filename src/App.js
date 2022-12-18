@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div>
-      <div>
+      <div className="navbar-container">
         <NavBar />
       </div>
       <main>

@@ -10,12 +10,13 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100rem;
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
-body {
+#body {
   /* height: 100%;
   width: 100%; */
   display: flex;
@@ -23,6 +24,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+#app-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100rem;
+}
+#root{
+  width: 100rem;
+}
+
 
 a{
   color: #62061bcf;
@@ -82,7 +93,8 @@ a{
 }
 .BioText{
   font-size: 26px;
-  color:#62061b
+  color:#62061b;
+  width: 33rem;
 }
 .ResumeButton{
   font-size: 35px;
