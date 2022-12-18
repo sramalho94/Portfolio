@@ -11,20 +11,95 @@
 html {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  height: 100vh;
+}
 /* NavBar Elements */
 .Navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-color: #62061bcf;
+  top:0;
+  width: 100%;
+  position:fixed
 }
 
 .NavBarLink {
-  size: 30px;
-  color: magenta;
+  font-size: 30px;
+  color: #aafcfd;
   text-decoration: none;
 }
 /* About Me Elements */
-::-webkit-scrollbar {
-  display: none;
+.AboutMe{
+  width: 100%;
+  background-color: #aafcfd;
+  height: 76em;
+}
+.AboutContainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.AboutHeader {
+  font-family: 'Titan One', cursive;
+  font-size: 50px;
+  margin: 100px 0;
+  color:#62061b;
+}
+.AboutInfo{
+  display:flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+}
+.AboutPicContainer{
+  width: 200px;
+  height: 200px
+}
+.AboutPic{
+  width: 150px;
+  height: 200px;
+  border-radius: 20%;
+}
+.BioText{
+  font-size: 26px;
+  color:#62061b
+}
+.ResumeButton{
+  font-size: 35px;
+  border: #62061b;
+  background-color: #62061b;
+  border-radius: 50%;
+  color:#aafcfd;
+  padding: 8px
+}
+.ResumeButtonContainer{
+  display: flex;
+  justify-content: center;
+}
+/* Footer Elements */
+.FooterIcon{
+  width: 30px;
+  width: 30px;
+  padding: 5px;
+}
+.FooterContainer{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  background-color: #62061bcf;
+  position:fixes
+}
+.FooterHeader{
+  color:#aafcfd;
 }
