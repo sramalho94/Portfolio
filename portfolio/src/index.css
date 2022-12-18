@@ -16,24 +16,35 @@ html {
   display: none;
 }
 body {
-  height: 100vh;
+  /* height: 100%;
+  width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  color: #62061bcf;
 }
 /* NavBar Elements */
 .Navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   background-color: #62061bcf;
   top:0;
-  width: 100%;
-  position:fixed
+  width: 100rem;
+  position:fixed;
+  margin-bottom: .2rem;
 }
 
 .NavBarLink {
   font-size: 30px;
   color: #aafcfd;
   text-decoration: none;
+  margin-left: 10px;
 }
 /* About Me Elements */
 .AboutMe{
@@ -98,8 +109,71 @@ body {
   justify-content: center;
   bottom: 0;
   background-color: #62061bcf;
-  position:fixes
+  position:fixes;
+  max-width: 100rem;
 }
 .FooterHeader{
   color:#aafcfd;
+}
+
+/* Home */
+.home-container{
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  align-items: center;
+  justify-content: center;
+}
+/* Projects */
+.projects-container{
+  margin-top: 2.1rem;
+  background-color: #aafcfd;
+
+}
+
+.projects-list{
+  display: grid;
+  grid-template-columns: 50rem 50rem;
+  grid-template-rows: 50rem 50rem
+}
+.project-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.project-image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50rem;
+  border-radius: 80px;
+}
+.project-title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-family: 'Abril Fatface', cursive;
+  color: #62061b;
+}
+.project-image{
+  width: 30rem;
+  border-radius: 80px;
+  margin-bottom: 2rem;
+}
+.project-link{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: #62061b;
+  text-decoration: none;
+}
+.project-list-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: 'Abril Fatface', cursive;
+  color: #62061b;
 }
