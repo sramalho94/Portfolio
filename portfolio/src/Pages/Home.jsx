@@ -3,7 +3,7 @@ import Projects from '../components/Projects'
 
 const Home = () => {
   return (
-    <div>Home
+    <div className='home-container'>
       <Projects />
     </div>
     
