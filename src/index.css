@@ -28,6 +28,7 @@ html {
   flex-direction: column;
   justify-content: center;
   min-width: 100vw;
+  min-height: 100vh;
 }
 #root{
   width: 100rem;
@@ -46,6 +47,7 @@ a{
   background-color: #62061bcf;
   top:0;
   min-width: 100vw;
+  width: 100rem;
   position:fixed;
   margin-bottom: .2rem;
 }
@@ -122,6 +124,7 @@ a{
   background-color: #62061bcf;
   position:fixed;
   min-width: 100vw;
+  width: 100rem;
 }
 .FooterHeader{
   color:#aafcfd;
@@ -140,14 +143,18 @@ a{
   margin-top: 2.1rem;
   background-color: #aafcfd;
   min-width: 100vw;
+  width: 100rem;
 
 }
 
 .projects-list{
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 50rem 50rem;
   grid-template-rows: 45rem 45rem;
   min-width: 100vw;
+  width: 100rem;
+  justify-content: center;
+  align-items: center;
 }
 .project-container{
   display: flex;
@@ -155,6 +162,7 @@ a{
   justify-content: center;
   align-content: center;
   min-width: 25vw;
+  width: 33rem;
 }
 .project-image-container{
   display: flex;
