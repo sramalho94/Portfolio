@@ -142,6 +142,8 @@ a{
 
 .FooterHeader{
   color:#aafcfd;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* Home */
@@ -152,6 +154,29 @@ a{
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  background-color: #aafcfd;
+}
+.home-text-container{
+  display: flex;
+  flex-direction: column;
+  color: #62061b;
+  font-size: 50px;
+}
+.home-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center ;
+  margin-bottom: 30px;
+}
+.home-title{
+  margin-right: 30px;
+}
+span{
+  margin-right: 30px;
+}
+.explore-text{
+  margin-top: 30px;
 }
 /* Projects */
 .projects-container{
@@ -225,4 +250,41 @@ a{
   font-size: 2rem;
   font-family: 'Abril Fatface', cursive;
   color: #62061b;
+}
+
+/* Word Carousel */
+.wordCarousel{
+  display: flex;
+  font-size: 36px;
+  color: #62061b;
+}
+
+.animated-div{
+  overflow: hidden;
+  position: relative;
+  float: right;
+  height: 40px
+}
+
+.li{
+  height: 40px;
+  margin-bottom: 30px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip4 {
+  0% { margin-top: -360px; }
+  5% { margin-top: -270px; }
+  25% { margin-top: -270px; }
+  30% { margin-top: -180px; }
+  50% { margin-top: -180px; }
+  55% { margin-top: -90px; }
+  75% { margin-top: -90px; }
+  80% { margin-top: 0px; }
+  99.99% { margin-top: 0px; }
+  100% { margin-top: -270px; }
 }
