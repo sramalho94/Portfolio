@@ -118,8 +118,8 @@ a{
 .FooterContainer{
   display:flex;
   flex-direction: row;
-  align-items: top;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   bottom: 0;
   background-color: #62061bcf;
   position:fixed;
