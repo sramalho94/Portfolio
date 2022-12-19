@@ -197,6 +197,7 @@ span{
   width: 100rem;
   justify-content: center;
   align-items: center;
+  background-color: #aafcfd;
 }
 @media screen and (max-width: 600px){
   .projects-list{
