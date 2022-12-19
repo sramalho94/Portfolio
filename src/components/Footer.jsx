@@ -4,7 +4,7 @@ import LinkedInLogo from '../Assets/linkedin.svg'
 const Footer = () => {
   return (
     <div className='FooterContainer'>
-      <p className='FooterHeader'>Let's Connect:</p>
+      <p className='FooterHeader'>Let's Connect: <br/> email:sramalho@fordham.edu </p>
       <a className='FooterLink' href="https://github.com/sramalho94">
         <img src={GithubLogo} className='FooterIcon'/>
       </a>
