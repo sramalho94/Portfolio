@@ -14,7 +14,7 @@ const AboutMe = () => {
         <div className='AboutBio'>
           <div className='BioText'>I am a software engineer with a background in providing unparalleled customer service to clients in a variety of retail environments. My previous experience has taught me how to embrace problem solving, communicate and collaborate with individuals and teams, and perform tasks in fast-paced settings. I love to learn new things, let's learn from each other!</div>
           <div className='ResumeButtonContainer'>
-          <a className='ResumeButton' href='https://docs.google.com/document/d/1D6-wQXMbYHRCu0V7Pizsy171BjiEjYpy0JCLEostJGU/export?format=pdf'>Resume</a>
+          <a className='ResumeButton' href='https://docs.google.com/document/d/1yWNuzsY5BF-urX_VwFr5AkEj8gTY2o9pz3naYRyAVEE/export?format=pdf'>Resume</a>
         </div>
         </div>
       </div>

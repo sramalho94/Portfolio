@@ -14,6 +14,17 @@ const WordAnimation = () => {
           </ul>
         </div>
       </h4>
+      <h4 className='wordCarousel'>
+        <span>Skills:</span>
+        <div className='animated-div'>
+          <ul className='flip4'>
+            <li className='list-item'>React, Vue</li>
+            <li className='list-item'>JavaScript, CSS</li>
+            <li className='list-item'>Sql, Postgres</li>
+            <li className='list-item'>MongoDB, Mongoose </li>
+          </ul>
+        </div>
+      </h4>
     </div>
   )
 }
