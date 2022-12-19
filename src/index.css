@@ -88,6 +88,13 @@ a{
   max-width: 100%;
   align-items: center;
 }
+
+@media screen and (max-width: 600px){
+  .AboutInfo{
+    display: flex;
+    flex-direction: column;
+  }
+}
 .AboutPicContainer{
   width: 200px;
   height: 200px
@@ -221,9 +228,12 @@ span{
   .projects-list{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     min-width: 100vw;
     width: 100rem;
   }
+
 }
 .project-container{
   display: flex;
@@ -269,6 +279,14 @@ span{
   font-size: 2rem;
   font-family: 'Abril Fatface', cursive;
   color: #62061b;
+}
+@media screen and (max-width: 600px){
+  .project-list-header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }
 
 /* Word Carousel */
