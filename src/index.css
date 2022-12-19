@@ -118,7 +118,7 @@ a{
 .FooterContainer{
   display:flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   bottom: 0;
   background-color: #62061bcf;
@@ -126,6 +126,20 @@ a{
   min-width: 100vw;
   width: 100rem;
 }
+@media screen and (max-width: 600px){
+  .FooterContainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    bottom: 0;
+    background-color: #62061bcf;
+    position:fixed;
+    min-width: 100vw;
+    width: 100rem;
+  }
+}
+
 .FooterHeader{
   color:#aafcfd;
 }
