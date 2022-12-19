@@ -1,5 +1,5 @@
 import React from 'react'
-
+import GithubLogo from '../Assets/github.svg'
 const Projects = () => {
   return (
     <div className='projects-container'>
@@ -18,6 +18,7 @@ const Projects = () => {
             <a href='https://admiralstephanbattleship.surge.sh/'>Project Link</a>
           </div>
           <div className='project-link'>
+            <img src={GithubLogo} className='FooterIcon'/>
             <a href='https://github.com/sramalho94/Admiral-Stephan-Battleship-Project'>Project Github</a>
           </div>
         </div>
@@ -32,6 +33,7 @@ const Projects = () => {
             <a href='https://corney-island2022.herokuapp.com/'>Project Link</a>
           </div>
           <div className='project-link'>
+          <img src={GithubLogo} className='FooterIcon'/>
             <a href='https://github.com/sramalho94/Corney_Island_Group_Project'>Project Github</a>
           </div>
         </div>
@@ -46,6 +48,7 @@ const Projects = () => {
             <a href='https://starz-app.herokuapp.com/'>Project Link</a>
           </div>
           <div className='project-link'>
+          <img src={GithubLogo} className='FooterIcon'/>
             <a href='https://github.com/BrianDLara/The-Faults-In-Our-Stars_Frontend'>Project Github</a>
           </div>
         </div>
@@ -60,6 +63,7 @@ const Projects = () => {
             <a href='https://pokepro-frontend.herokuapp.com/'>Project Link</a>
           </div>
           <div className='project-link'>
+          <img src={GithubLogo} className='FooterIcon'/>
             <a href='https://github.com/sramalho94/PokePro'>Project Github</a>
           </div>
         </div>
