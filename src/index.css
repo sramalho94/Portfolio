@@ -251,12 +251,23 @@ span{
   width: 100%;
   border-radius: 80px;
 }
+@media screen and (max-width: 600px){
+  .project-image-container{
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
 .project-title{
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
   font-family: 'Abril Fatface', cursive;
   color: #62061b;
+}
+@media screen and (max-width: 600px){
+  .project-title{
+    justify-content: flex-start;
+  }
 }
 .project-image{
   width: 25rem;
@@ -286,6 +297,11 @@ span{
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 600px){
+  .project-description-container{
+    width: 100vw;
   }
 }
 
